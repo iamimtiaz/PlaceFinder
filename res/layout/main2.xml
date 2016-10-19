@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:gravity="center"
+              android:padding="10dp"
+              android:layout_height="match_parent"
+              android:background="@drawable/powered_by_google_light"
+        >
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  android:id="@+id/scrol1">
+
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="78dp"
+                    android:id="@+id/textView112"/>
+            <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fitness Helper"
+                    android:textSize="20dp"
+                    android:visibility="gone"
+                    android:textStyle="bold"
+                    android:focusableInTouchMode="true" android:focusable="true"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/ad"
+                    android:paddingBottom="@dimen/padding_large"
+                    android:id="@+id/button" android:layout_gravity="center_horizontal"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/textView13"/>
+            <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="408dp"
+                    android:layout_height="wrap_content"
+                    android:text="Type 1 place"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/mark_blue"
+                    android:id="@+id/button2" android:enabled="true"
+                    android:longClickable="false" android:singleLine="false"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/textView15"/>
+            <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                  
+                    android:visibility="gone"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/food"
+                    android:id="@+id/button4"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/textView14"/>
+            <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="337dp"
+                    android:layout_height="match_parent"
+                    android:text="Type 2 place"
+                    
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/fu"
+                    android:id="@+id/button3"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/textView77"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="78dp"
+                    android:id="@+id/textView12"/>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

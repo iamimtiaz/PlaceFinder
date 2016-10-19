@@ -1,0 +1,48 @@
+{
+   "results" : [
+      {
+         "lat": 23.7820425,
+         "lng": 90.282562,
+        
+         "id" : "102",
+         "name" : "Rhythmboat Cruises",
+          "type": "1",
+         "vicinity" : "Pyrmont Bay Wharf Darling Dr, Sydney",
+		 "phone_number": "0170000000"
+      },
+      {
+         "lat": 23.8127541,
+         "lng": 90.4243764,
+         
+         "id" : "103",
+         "name" : "Private Charter Sydney Habour Cruise",
+         
+         "type": "1",
+         "vicinity" : "Australia",
+		 "phone_number": "0170000011"
+      },
+      {
+         "lat": 23.81283106,
+         "lng": 90.41527837,
+         
+         "id" : "110",
+         "name" : "Bucks Party Cruise",
+
+         "type": "2",
+         "vicinity" : "37 Bank St, Pyrmont",
+		 "phone_number": "01700000222"
+      },
+      {
+         "lat": 23.820425,
+         "lng": 90.825621,
+         "id" : "105",
+         "name" : "Australian Cruise Group",
+ 
+         "type": "2",
+         "vicinity" : "32 The Promenade, King Street Wharf 5, Sydney",
+		 "phone_number": "0170000444"
+      }
+   ],
+   "status" : "OK"
+
+}

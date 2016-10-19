@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@drawable/a2"
+              android:padding="10dp"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView2"/>
+    <TextView
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Fitness Report"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:id="@+id/textView19" android:layout_gravity="center_horizontal" android:layout_weight="0.14"/>
+    <TextView
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:id="@+id/textViewshow" android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="" />
+
+    <Button
+            android:id="@+id/button_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Diet Plan" android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="" />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/h"
+            android:id="@+id/button8" android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

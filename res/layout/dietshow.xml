@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_height="match_parent" android:weightSum="1" android:background="@drawable/a2">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Diet"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:id="@+id/textView20" android:layout_gravity="center_horizontal" android:layout_weight="0.20"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:id="@+id/textView_diet" android:layout_gravity="center_horizontal" android:layout_weight="0.48"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:id="@+id/textViewExercs" android:layout_weight="0.12"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" View Calorie Chart "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:background="@android:color/darker_gray"
+            android:id="@+id/button5" android:layout_gravity="center_horizontal" android:layout_weight="0.09"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="" />
+    
+    <Button
+            android:layout_width="83dp"
+            android:layout_height="66dp"
+            android:text=""
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/h"
+            android:id="@+id/button7" android:layout_gravity="center_horizontal"/>
+</LinearLayout>
